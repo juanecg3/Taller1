@@ -61,3 +61,41 @@ nav a {
     font-size: 15px;
 }
 
+/* =========================
+   HERO
+   ========================= */
+
+.hero {
+    min-height: 240px;
+    padding: 40px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    border-bottom: 1px solid #222;
+}
+
+.hero h1 {
+    margin: 0 0 10px;
+    font-size: 34px;
+}
+
+.hero p {
+    margin: 0 0 20px;
+    font-size: 18px;
+}
+
+.boton {
+    padding: 16px 50px;
+
+    background-color: #a8d8ff;
+    border: 2px solid #222;
+    border-radius: 12px;
+
+    font-weight: bold;
+}
+
