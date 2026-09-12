@@ -153,3 +153,68 @@ nav a {
 .tarjeta p {
     margin: 0;
 }
+
+/* =========================
+   HISTORIA E IMAGEN
+   ========================= */
+
+.nosotros {
+    padding: 30px 40px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+    border-bottom: 1px solid #222;
+}
+
+.historia,
+.imagen {
+    min-height: 180px;
+    padding: 20px;
+
+    border: 2px solid #222;
+    border-radius: 25px;
+}
+
+.historia h2,
+.imagen h2 {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.historia p {
+    margin: 0;
+}
+
+.imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen-placeholder {
+    width: 40px;
+    height: 40px;
+
+    margin-top: 5px;
+
+    background-color: #d1c0ff;
+    border: 1px solid #222;
+    border-radius: 50%;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    padding: 15px 20px;
+
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
